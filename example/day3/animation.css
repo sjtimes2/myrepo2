@@ -8,7 +8,9 @@ div {
   animation-iteration-count: 4;
   animation-delay: 1s;
   animation-direction: reverse;
-
+  background-image: url('./background-image.png');
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 @keyframes example {
