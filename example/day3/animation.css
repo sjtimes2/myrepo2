@@ -6,6 +6,7 @@ div {
   animation-duration: 4s;
   position: relative;
   animation-iteration-count: 4;
+  -o-animation-delay: 1s;
   animation-direction: reverse;
 
 }
