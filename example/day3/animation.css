@@ -5,6 +5,8 @@ div {
   animation-name: example;
   animation-duration: 4s;
   position: relative;
+  animation-iteration-count: 4;
+
 }
 
 @keyframes example {
