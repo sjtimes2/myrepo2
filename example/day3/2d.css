@@ -1,0 +1,30 @@
+div {
+  width: 300px;
+  background-color: cornflowerblue;
+  border: 2px solid black;
+  -ms-transform: translate(50px, 100px);
+  transform: translate(50px, 100px);
+}
+
+div#myDiv1 {
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+div#myDiv2 {
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+div#myDiv3 {
+  -ms-transform: scaleX(0.5);
+  transform: scaleX(0.5);
+}
+div#myDiv4 {
+  -ms-transform: skewX(20deg);
+  transform: skewX(20deg);
+}
+
+div#myDiv5 {
+  -ms-transform: skewY(20deg);
+  transform: skewY(20deg);
+}
