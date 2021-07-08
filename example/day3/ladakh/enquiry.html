@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: peachpuff;
+    }
+
+    input[type="reset"] {
+      background-color: tomato;
+      color: white;
+    }
+
+    input[type="submit"] {
+      background-color: green;
+      color: white;
+    }
+
+    input[type="button"] {
+      background-color: lightblue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Form</h1>
+  <form>
+    Name: <input type="text" name="" id="name"><br>
+    Email: <input type="email" name="" id="email"><br>
+    Phone: <input type="tel" name="" id="tel"><br><br>
+    Booking from: <input type="date" name="" id="from">
+    to: <input type="date" name="" id="to"><br><br>
+    <input type="reset" value="Reset">
+    <input type="button" value="Console" onclick="myLog()">
+    <input type="submit" value="Submit">
+  </form>
+  <script>
+    function myLog() {
+      var name = document.getElementById('name');
+      var email = document.getElementById('email');
+      var tel = document.getElementById('tel');
+      var from = document.getElementById('from');
+      var to = document.getElementById('to');
+      console.log("Name: ", name.value);
+      console.log("Email: ", email.value);
+      console.log("Tel: ", tel.value);
+      console.log("From Date: ", from.value);
+      console.log("To Date: ", to.value);
+    }
+  </script>
+</body>
+
+</html>
